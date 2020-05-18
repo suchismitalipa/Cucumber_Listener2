@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17884" started-at="2020-05-18T11:36:41 IST" finished-at="2020-05-18T11:36:59 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.MyRunner@2a742aa2]" name="feature" class="Runner.MyRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17884" started-at="2020-05-18T11:36:41 IST" finished-at="2020-05-18T11:36:59 IST">
+      <class name="Runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.MyRunner@2a742aa2]" name="setUpClass" is-config="true" duration-ms="206" started-at="2020-05-18T11:36:41 IST" finished-at="2020-05-18T11:36:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.MyRunner@2a742aa2]" name="feature" duration-ms="17440" started-at="2020-05-18T11:36:41 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-18T11:36:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.MyRunner@2a742aa2]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2020-05-18T11:36:59 IST" finished-at="2020-05-18T11:36:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.MyRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
